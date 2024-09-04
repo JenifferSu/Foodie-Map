@@ -5,9 +5,13 @@ Foodie Map is a Web 3 consumer app powered by Solana designed to revolutionize t
 
 # Features
 🔒 Verified Reviews: Blockchain ensures that all reviews are authentic and trustworthy.
+
 🎁 Foodie Token Rewards: Users earn foodie tokens for registering, writing reviews and contributing to the community. Tokens can be redeemed for discount vouchers, special offers, or exchanges.
+
 💱 Token Exchange: Convert your earned Foodie Tokens into Sol Tokens, providing flexibility and real value for your contributions.
+
 📍 Smart Suggestions: Get restaurant recommendations based on your real-time location and weather conditions. 
+
 📅 Bazaar Event Scheduling: Input and save events directly to Google Calendar.
 🔍 Enhanced Visibility: Find restaurants easily with filters, likes, and reviews.
 📧 Marketing Tools: Get email notifications for likes to attract more customers.
