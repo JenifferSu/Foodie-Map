@@ -36,5 +36,6 @@ Foodie Map is a Web 3 consumer app powered by Solana designed to revolutionize t
 
 # Experience Foodie Map
 
-Powered by
-![solana-sol-logo](https://github.com/user-attachments/assets/2bfa773f-f59e-4e80-a187-3bd615fa2bb1)
+Powered by:
+![solana-sol-logo-9AA58519FE-seeklogo com](https://github.com/user-attachments/assets/c1f8a9f3-6854-4d35-a550-4a73f2907165) 
+
