@@ -23,7 +23,7 @@ Foodie Map is a Web 3 consumer app powered by Solana designed to revolutionize t
 
 - 🎯 **Personalized Discovery:** Use tailored filters to find the perfect restaurant.
 
-- 🍽️ **Detailed Menus:** Access menus with user reviews and likes to make informed choices.
+- 🍽️ **Detailed Menus:** Access detailed menus of each restaurant to make informed choices.
 
 - 🗺️ **Google Maps Integration:** Locate restaurants and bazaars with precision.
 
