@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect to Solana Wallet</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #0d0f15;
+            font-family: 'Arial', sans-serif;
+            color: #ffffff;
+        }
+        .container {
+            text-align: center;
+        }
+        h2 {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(90deg, #ff6ec4, #7873f5, #49c6e5, #f9bb3c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtext {
+            font-size: 1.2em;
+            margin-bottom: 2rem;
+        }
+        .btn-connect {
+            background-color: #1f2233;
+            color: #ffffff;
+            padding: 0.8rem 2.5rem;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border: 2px solid #373b54;
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-connect:hover {
+            background-color: #2a2e46;
+        }
+        .btn-connect img {
+            margin-right: 10px;
+        }
+        .checkbox-container {
+            margin-top: 1rem;
+            font-size: 0.9em;
+        }
+        .checkbox-container input {
+            margin-right: 0.5rem;
+        }
+        .checkbox-container a {
+            color: #49c6e5;
+            text-decoration: none;
+        }
+    </style>
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Connecting to Solana Wallet</h2>
+        <p class="subtext">Foodie map 🍔</p>
+        <p>Connect to start trading SOL now</p>
+        <div id="status">Not Connected </div>
+        <br/>
+        <div></div>
+        <div class="btn-connect" onclick="connectWallet()">
+            <img src="https://phantom.app/favicon/apple-touch-icon.png" alt="Solana Logo" width="30" height="30">
+            Connect Wallet
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">By connecting, I agree to the <a href="#">Terms & Privacy</a></label>
+        </div>
+    </div>
+
+    <script>
+        // async function connectWallet() {
+        //     try {
+        //         const resp = await window.solana.connect();
+        //         window.solana.on("connect", () => {
+        //             document.getElementById("status").innerText = "Connected";
+        //             console.log("Connected to wallet:", resp.publicKey.toString());
+        //         });
+        //     } catch (err) {
+        //         let errorMsg = err.code === 4001 ? "User rejected the request." : "Connection failed.";
+        //         document.getElementById("status").innerText = errorMsg;
+        //         console.error("Error:", errorMsg);
+        //     }
+        // }
+        var wallet;
+        function connectWallet(){
+        (async() => {
+            try {
+            console.log("Connected to wallet");
+            const resp = await window.solana.connect();
+            wallet = resp;
+            // 26qv4GCcx98RihuK3c4T6ozB3J7L6VwCuFVc7Ta2A3Uo 
+            } catch (err) {
+                console.log("err >>>>> "+err);
+            // { code: 4001, message: 'User rejected the request.' }
+            }
+            })();
+            window.solana.on("connect", () => document.getElementById("status").innerText="Connected")
+        }
+    </script>
+</body>
+</html>
