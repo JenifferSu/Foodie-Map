@@ -44,8 +44,9 @@ https://www.appsheet.com/newshortcut/c4cc6038-3c5a-4d42-8ed8-d93f4bb5d360
 # Follow Our Twitter
 https://x.com/foodie_map
 
+![FoodieMap Twitter](https://github.com/user-attachments/assets/6b1ff1f6-2150-417d-9ad8-0084d1e735cf)
 
-![Uploading FoodieMap Twitter.png…]()
+
 
 
 
