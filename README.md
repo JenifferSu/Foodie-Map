@@ -35,7 +35,7 @@ Foodie Map is a Web 3 consumer app & DeFi powered by Solana designed to revoluti
 # Presentation Video:
 Check out our presentation video to see detail demo & explanation :star_struck:
 
-https://youtu.be/PWtrN3wsm38
+https://youtu.be/OOb6G7oQ5ho
 
 
 # Experience Foodie Map 
