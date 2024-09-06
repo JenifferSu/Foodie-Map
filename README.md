@@ -1,7 +1,7 @@
 # Foodie-Map
 ![Foodie Map](https://github.com/user-attachments/assets/ed6c1a20-2861-46b2-85b7-9ebb3e46390d)
 
-Foodie Map is a Web 3 consumer app powered by Solana designed to revolutionize the dining experience by integrating blockchain technology to ensure transparency, trust, and rewards for users. The app helps users easily discover restaurants, make reservations, and engage with the community through verified reviews and personalized recommendations. By leveraging the Solana blockchain, the app not only provides a seamless user experience but also introduces token-based rewards, enhancing user engagement and loyalty. This next-generation mobile and web platform aims to onboard billions of users into the crypto ecosystem by offering real-world utility combined with the benefits of decentralized technology.
+Foodie Map is a Web 3 consumer app & DeFi powered by Solana designed to revolutionize the dining experience by integrating blockchain technology to ensure transparency, trust, and rewards for users. The app helps users easily discover restaurants, make reservations, and engage with the community through verified reviews and personalized recommendations. By leveraging the Solana blockchain, the app not only provides a seamless user experience but also introduces token-based rewards, enhancing user engagement and loyalty. This next-generation mobile and web platform aims to onboard billions of users into the crypto ecosystem by offering real-world utility combined with the benefits of decentralized technology.
 
 ## Features
 
